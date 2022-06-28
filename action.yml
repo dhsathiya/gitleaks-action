@@ -1,8 +1,8 @@
-name: Gitleaks
+name: Gitleaks Code Scan
 description: Run Gitleaks on Push and PR events
 branding:
-  color: purple
-  icon: eye
+  color: orange
+  icon: shield
 inputs:
   config-path:
     description: 'Path to config (relative to $GITHUB_WORKSPACE)'
