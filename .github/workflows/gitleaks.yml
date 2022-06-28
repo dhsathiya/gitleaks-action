@@ -1,0 +1,15 @@
+name: gitleaks
+
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  gitleaks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: gitleaks-action with defaults
+        uses: dhsathiya/gitleaks-action@master
+      - name: gitleaks-action with config
+        uses: dhsathiya/gitleaks-action@master
+        with:
+          config-path: .gitleaks.yml
