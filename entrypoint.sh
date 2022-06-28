@@ -8,7 +8,7 @@ if [ -f "$GITHUB_WORKSPACE/$INPUT_CONFIG_PATH" ]; then
   CONFIG=" --config-path=$GITHUB_WORKSPACE/$INPUT_CONFIG_PATH"
 fi
 
-echo running gitleaks "$(gitleaks --version) with the following command👇"
+echo running gitleaks "$(gitleaks version) with the following command👇"
 
 if [ "$GITHUB_EVENT_NAME" = "push" ]
 then
