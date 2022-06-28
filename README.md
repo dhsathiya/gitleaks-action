@@ -3,7 +3,7 @@
   <img alt="gitleaks" src="https://raw.githubusercontent.com/zricethezav/gifs/master/gitleakslogo.png" height="70" />
 </p>
 
-Gitleaks Action provides a simple way to run gitleaks in your CI/CD pipeline.
+Gitleaks Action provides a simple way to run Gitleaks in your CI/CD pipeline.
 ## Why here?
 This repository is here to support the Gitleaks action with all the updates from [Gitleaks source project](https://github.com/zricethezav/gitleaks). With the new 2.0 version of [gitleaks/gitleaks-action GitHub Action](https://github.com/gitleaks/gitleaks-action#-why-is-my-gitleaks-action-job-suddenly-failing) they went to a commercial licence. 
 
