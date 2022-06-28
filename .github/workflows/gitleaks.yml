@@ -8,8 +8,8 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: gitleaks-action with defaults
-        uses: dhsathiya/gitleaks-action@master
+        uses: dhsathiya/gitleaks-action@main
       - name: gitleaks-action with config
-        uses: dhsathiya/gitleaks-action@master
+        uses: dhsathiya/gitleaks-action@main
         with:
           config-path: .gitleaks.yml
